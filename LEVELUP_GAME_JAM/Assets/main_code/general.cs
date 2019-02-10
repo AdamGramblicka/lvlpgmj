@@ -11,9 +11,12 @@ public class general : MonoBehaviour
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     void AfterSceneLoad() {
+        
         // players spawn
         // terraf. spawn
         // countdown
         // game start
     }
+
+    
 }

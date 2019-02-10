@@ -41,7 +41,7 @@ public class multi_cam_movement : MonoBehaviour
     private void CameraZoom(float dist)
     {
         float newZoom = Mathf.Lerp(maxZoom, minZoom, dist / zoomLimit);
-        cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, newZoom, Time.deltaTime);
+        cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, newZoom, Time.deltaTime);
     }
 
     private void CameraMove(Vector3 point)

@@ -11,6 +11,7 @@ TagManager:
   - hb2
   - hb3
   - hb4
+  - terr
   layers:
   - Default
   - TransparentFX
